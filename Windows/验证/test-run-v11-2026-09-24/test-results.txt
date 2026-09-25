@@ -1,0 +1,93 @@
+﻿PASS  Fresh farm: 12 plots, level 1
+PASS  Mature harvest deposits 3 wheat
+PASS  Repeated harvest cannot duplicate crops
+PASS  Plant spends coins and starts real-time timer
+PASS  Occupied plot never charges twice
+PASS  Water reduces remaining time 20 percent
+PASS  Water cannot be repeated
+PASS  Cannot harvest immature crops
+PASS  Harvest succeeds after elapsed real time
+PASS  Locked crops cannot charge or plant
+PASS  Cannot plant with insufficient money
+PASS  Craft atomically spends ingredients
+PASS  Queue capacity blocks additional ingredient spending
+PASS  Jobs run sequentially
+PASS  First job deposits automatically
+PASS  Second job deposits automatically
+PASS  Repeated tick never duplicates completed jobs
+PASS  Level 2 bakery purchase
+PASS  Wheat to flour to bread production chain
+PASS  Bread completes
+PASS  Sell clamps to owned quantity
+PASS  Empty inventory cannot generate money
+PASS  Order delivers and rewards
+PASS  Unfilled order never rewards
+PASS  First expansion adds 12 plots
+PASS  Second expansion adds 12 plots
+PASS  Level gate blocks early further expansion without charging
+PASS  Coop includes a chicken
+PASS  Animal feeding spends correct food
+PASS  Animal produces only after timer
+PASS  Ready animal harvest is repeat-safe
+PASS  Animal cannot duplicate output
+PASS  Pet cooldown prevents affection spam
+PASS  Pet cooldown expires correctly
+PASS  Daily gift claim is idempotent
+PASS  Achievement rewards are idempotent
+PASS  Decoration purchase persists coordinates and spends coins
+PASS  Atomic save creates a recoverable backup
+PASS  Save/load preserves expansions and decorations
+PASS  Offline production catches up on load
+PASS  Corrupt primary save recovers valid backup
+PASS  Backward clock does not complete future work or delete progress
+PASS  End-to-end recipe: 面粉
+PASS  End-to-end recipe: 饲料
+PASS  End-to-end recipe: 乡村面包
+PASS  End-to-end recipe: 莓果面包
+PASS  End-to-end recipe: 奶油
+PASS  End-to-end recipe: 草莓蛋糕
+PASS  End-to-end recipe: 棉布
+PASS  End-to-end recipe: 糖
+PASS  End-to-end recipe: 草莓果酱
+PASS  Train bulk delivery rewards and consumes goods
+PASS  Late-game state passes save validation
+PASS  Empty farm receives seed money to avoid economic deadlock
+PASS  Recovery gift cannot be repeatedly claimed
+PASS  Reading a missing queue never mutates save data
+PASS  UI renders: inventory
+PASS  UI renders: workshop
+PASS  UI renders: orders
+PASS  UI renders: build
+PASS  UI renders: pet
+PASS  UI renders: journal
+PASS  UI renders: settings
+PASS  Decoration screen renders
+PASS  Rendering every panel leaves player save unchanged
+PASS  UI inspection preserves save validity
+PASS  v0.1 save migrates without resetting progress
+PASS  English language pack loads
+PASS  Core labels translate
+PASS  Dynamic crop message translates as a complete sentence
+PASS  Dynamic sale message preserves quantities
+PASS  Model errors, timers, tooltips and inventory rows translate
+PASS  Switching language does not mutate the farm
+PASS  Free-roaming pets remain inside visible screen bounds
+PASS  Pet movement is continuous without teleporting
+PASS  Pets explore all four screen quadrants, not just the farm
+PASS  Dragging clamps pets to the visible screen
+PASS  Pet dropped on an obstacle can walk out again
+PASS  Wallpaper fully covers 960x540
+PASS  Wallpaper fully covers 1280x720
+PASS  Wallpaper fully covers 640x960
+PASS  English layout renders: inventory
+PASS  English layout renders: workshop
+PASS  English layout renders: orders
+PASS  English layout renders: build
+PASS  English layout renders: pet
+PASS  English layout renders: journal
+PASS  English layout renders: settings
+PASS  English layout renders: welcome
+System.Exception: FAIL: All shipped Chinese UI literals have English coverage
+   at DesktopFarm.Tests.Assert(Boolean ok, String name)
+   at DesktopFarm.V02Tests.Run(String path, Action`2 check)
+   at DesktopFarm.Tests.Run(String path)

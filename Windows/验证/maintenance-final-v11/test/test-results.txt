@@ -1,0 +1,15 @@
+﻿PASS  Maintenance flavor is enabled
+PASS  Maintenance save root is isolated from player saves
+PASS  Fresh maintenance farm has unlimited funds
+PASS  Every building and upgrade takes exactly one minute
+PASS  Planting works without spending coins
+PASS  Building purchase works without spending coins
+PASS  Construction timer and production pause are applied
+PASS  Production stays blocked during construction
+PASS  Building completes after one minute
+PASS  Free upgrade is available with unlimited funds
+PASS  Building upgrades also take one minute without spending coins
+PASS  Maintenance farm page has no land-tile controls
+PASS  Maintenance save data remains valid
+
+TOTAL: 13 passed, 0 failed

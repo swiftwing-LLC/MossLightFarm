@@ -1,0 +1,4 @@
+PASS: All 81 fields accessible; plot 80 can be planted from UI
+PASS: Custom shortcut backend (native recorder separately verified)
+PASS: Invalid bare letter preserves previous shortcut
+PASS: 16 small-screen/language/zoom combinations, last plot reachable

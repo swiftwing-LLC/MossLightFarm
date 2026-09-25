@@ -1,0 +1,5 @@
+Mosslight Farm Linux 1.0
+PASS: test_linux.py (Python launcher syntax, package contents, offline save, 81-field progression, construction pause, renderer caching, animal interactions, pollinator rendering, embedded JavaScript syntax)
+PASS: browser interaction check (farm page, harvest to inventory, XP update, settings, weather selection, Simplified Chinese / English toggle, narrow 653 px viewport)
+LIMIT: built and packaged on Windows; no Linux VM/device was available for native launcher/browser validation.
+PACKAGE: 最新版/MosslightFarm-Linux-v1.0.tar.gz

@@ -1,0 +1,257 @@
+﻿PASS  Fresh farm: 12 plots, level 1
+PASS  Mature harvest deposits 3 wheat
+PASS  Repeated harvest cannot duplicate crops
+PASS  Plant spends coins and starts real-time timer
+PASS  Occupied plot never charges twice
+PASS  Water reduces remaining time 20 percent
+PASS  Water cannot be repeated
+PASS  Cannot harvest immature crops
+PASS  Harvest succeeds after elapsed real time
+PASS  Locked crops cannot charge or plant
+PASS  Cannot plant with insufficient money
+PASS  Craft atomically spends ingredients
+PASS  Queue capacity blocks additional ingredient spending
+PASS  Jobs run sequentially
+PASS  First job deposits automatically
+PASS  Second job deposits automatically
+PASS  Repeated tick never duplicates completed jobs
+PASS  Level 2 bakery purchase
+PASS  Wheat to flour to bread production chain
+PASS  Bread completes
+PASS  Sell clamps to owned quantity
+PASS  Empty inventory cannot generate money
+PASS  Order delivers and rewards
+PASS  Unfilled order never rewards
+PASS  First expansion adds 12 plots
+PASS  Second expansion adds 12 plots
+PASS  Level gate blocks early further expansion without charging
+PASS  Coop includes a chicken
+PASS  Animal feeding spends correct food
+PASS  Animal produces only after timer
+PASS  Ready animal harvest is repeat-safe
+PASS  Animal cannot duplicate output
+PASS  Pet cooldown prevents affection spam
+PASS  Pet cooldown expires correctly
+PASS  Daily gift claim is idempotent
+PASS  Achievement rewards are idempotent
+PASS  Decoration purchase persists coordinates and spends coins
+PASS  Atomic save creates a recoverable backup
+PASS  Save/load preserves expansions and decorations
+PASS  Offline production catches up on load
+PASS  Corrupt primary save recovers valid backup
+PASS  Backward clock does not complete future work or delete progress
+PASS  End-to-end recipe: 面粉
+PASS  End-to-end recipe: 饲料
+PASS  End-to-end recipe: 乡村面包
+PASS  End-to-end recipe: 莓果面包
+PASS  End-to-end recipe: 奶油
+PASS  End-to-end recipe: 草莓蛋糕
+PASS  End-to-end recipe: 棉布
+PASS  End-to-end recipe: 糖
+PASS  End-to-end recipe: 草莓果酱
+PASS  Train bulk delivery rewards and consumes goods
+PASS  Late-game state passes save validation
+PASS  Empty farm receives seed money to avoid economic deadlock
+PASS  Recovery gift cannot be repeatedly claimed
+PASS  Reading a missing queue never mutates save data
+PASS  UI renders: inventory
+PASS  UI renders: workshop
+PASS  UI renders: orders
+PASS  UI renders: build
+PASS  UI renders: pet
+PASS  UI renders: journal
+PASS  UI renders: settings
+PASS  Decoration screen renders
+PASS  Rendering every panel leaves player save unchanged
+PASS  UI inspection preserves save validity
+PASS  v0.1 save migrates without resetting progress
+PASS  English language pack loads
+PASS  Core labels translate
+PASS  Dynamic crop message translates as a complete sentence
+PASS  Dynamic sale message preserves quantities
+PASS  Model errors, timers, tooltips and inventory rows translate
+PASS  Switching language does not mutate the farm
+PASS  Free-roaming pets remain inside visible screen bounds
+PASS  Pet movement is continuous without teleporting
+PASS  Pets explore all four screen quadrants, not just the farm
+PASS  Dragging clamps pets to the visible screen
+PASS  Pet dropped on an obstacle can walk out again
+PASS  Wallpaper fully covers 960x540
+PASS  Wallpaper fully covers 1280x720
+PASS  Wallpaper fully covers 640x960
+PASS  English layout renders: inventory
+PASS  English layout renders: workshop
+PASS  English layout renders: orders
+PASS  English layout renders: build
+PASS  English layout renders: pet
+PASS  English layout renders: journal
+PASS  English layout renders: settings
+PASS  English layout renders: welcome
+PASS  All shipped Chinese UI literals have English coverage
+PASS  Unlocked fields stay visible on wallpaper without covering roads
+PASS  A tree can move outside the original farm footprint
+PASS  The house can move to the upper desktop
+PASS  Moving owned objects never charges money or resets crop timers
+PASS  Moved tree rendering and hit target share its new coordinates
+PASS  Invalid overlap is rejected without altering the saved layout
+PASS  Free layout survives save and restart
+PASS  Layout adapts proportionally to another screen size
+PASS  Paths are affordable and decorations have stable identities
+PASS  A newly purchased decoration can move anywhere on the desktop
+PASS  Save validation preserves decoration layout identities
+PASS  Companions route around moved object footprints
+PASS  Fields page harvest action collects a ripe crop
+PASS  Fields page replants and charges once
+PASS  Clicking a growing crop waters without buying twice
+PASS  Locked fields cannot be planted by forged input
+PASS  Custom layouts render as a complete wallpaper
+PASS  Wallpaper seed picker rejects locked crops
+PASS  Invalid HUD seed cannot spend currency or corrupt selection
+PASS  Inline workshop uses the same recipe costs and queue
+PASS  Inline workshop production completes into shared inventory
+PASS  Inline storage sale immediately updates currency and stock
+PASS  Inline sale cannot sell an empty stack twice
+PASS  Inline order consumes goods and rewards completion
+PASS  Polling the HUD never mutates farm progress
+PASS  Invisible legacy banner cannot intercept new wallpaper controls
+PASS  Fast dragging moves the house even if intermediate pointer events are coalesced
+PASS  Inline arrangement toggles the actual desktop editor
+PASS  Inline language change updates persistent and displayed language
+PASS  Desktop scene no longer paints the oversized header banner
+PASS  Dragging removes the house from its original position, without a duplicate ghost
+PASS  The actual house sprite follows the pointer during a drag
+PASS  A drag preview does not persist an unfinished move
+PASS  Cancelling a direct drag restores the original scene without a selection frame
+PASS  Interface size persists across save and restart
+PASS  Unsupported zoom cannot hide controls with an extreme scale
+PASS  Closing the management window retains an active wallpaper
+PASS  Windows shutdown is never cancelled by close-to-tray
+PASS  Explicit save-and-exit still quits
+PASS  Standalone game without wallpaper can close normally
+PASS  Test forms are not held open in the tray
+PASS  Startup command quotes paths with spaces and ampersands
+PASS  Stalled visible farm schedules recovery
+PASS  Paused hidden wallpaper does not trigger recovery
+PASS  Recovery never overrides a different wallpaper
+PASS  Recovery backs off instead of reopening repeatedly
+PASS  Healthy wallpaper is not restarted
+PASS  Power saving changes animation preference without changing crop timers
+PASS  Power saving can be disabled from the wallpaper
+PASS  Weather selection applies: 晴天
+PASS  Weather selection applies: 雨天
+PASS  Weather selection applies: 雪天
+PASS  Invalid weather cannot overwrite preference
+PASS  Weather preference survives restart
+PASS  Day/night weather scene has an opaque background
+PASS  Atmospheric rendering preserves economy and layout
+PASS  Day/night weather scene has an opaque background
+PASS  Atmospheric rendering preserves economy and layout
+PASS  Day/night weather scene has an opaque background
+PASS  Atmospheric rendering preserves economy and layout
+PASS  Day/night weather scene has an opaque background
+PASS  Atmospheric rendering preserves economy and layout
+PASS  Day/night weather scene has an opaque background
+PASS  Atmospheric rendering preserves economy and layout
+PASS  Day/night weather scene has an opaque background
+PASS  Atmospheric rendering preserves economy and layout
+PASS  Physical desktop coordinates normalize correctly on a 4K monitor
+PASS  Negative monitor origins preserve drag coordinates
+PASS  Direct native game input moves and persists the house without browser mouse events
+PASS  Purchase starts timed construction and charges once
+PASS  Repeated purchase cannot charge or duplicate construction
+PASS  Two builders enforce concurrency without spending on rejection
+PASS  Animal is not awarded before its building completes
+PASS  Completion awards the building and animal
+PASS  Repeated completion ticks do not duplicate animals
+PASS  Pending production blocks upgrade before charging
+PASS  Flour is queued before construction starts
+PASS  Upgrade keeps the old tier until its deadline
+PASS  Any active construction blocks new production without consuming ingredients
+PASS  Queued production progress stays paused during construction
+PASS  Existing workshop job resumes after construction
+PASS  Paused production finishes after the remaining time
+PASS  Construction and upgrades finish once after an offline interval
+PASS  Upgrading animal buildings never adds duplicate animals
+PASS  A backward clock cannot finish future construction
+PASS  Legacy economy migration preserves farm level and coins
+PASS  Legacy layout and starter farmhouse are preserved
+PASS  Economy migration is idempotent
+PASS  Unaffordable map cannot change the world or charge
+PASS  Exact-price river unlock works
+PASS  Owned maps switch without a second purchase
+PASS  River water and bridge crossing match terrain collision
+PASS  Camera reaches the far world edge
+PASS  Camera clamps at world boundaries
+PASS  Map dragging moves the viewport by the pointer distance
+PASS  Panning never rewrites object placements
+PASS  Building can be placed beyond the original single screen
+PASS  Moved building and hit target use the camera transform
+PASS  River placement is rejected without changing layout
+PASS  Home navigation finds the moved farmhouse
+PASS  Map ownership, camera and off-screen placement survive restart
+PASS  Wheat hourly profit is reduced from 390 to 36 per plot
+PASS  Selling goods does not farm experience points
+PASS  Midgame progression needs the revised experience curve
+PASS  Processing has a positive sale margin: flour
+PASS  Processing has a positive sale margin: feed
+PASS  Processing has a positive sale margin: bread
+PASS  Processing has a positive sale margin: berrybread
+PASS  Processing has a positive sale margin: cream
+PASS  Processing has a positive sale margin: cake
+PASS  Processing has a positive sale margin: cloth
+PASS  Processing has a positive sale margin: sugar
+PASS  Processing has a positive sale margin: jam
+PASS  Visible upgrade detail: mill tier 2
+PASS  Visible upgrade detail: mill tier 3
+PASS  Visible upgrade detail: bakery tier 2
+PASS  Visible upgrade detail: bakery tier 3
+PASS  Visible upgrade detail: coop tier 2
+PASS  Visible upgrade detail: coop tier 3
+PASS  Visible upgrade detail: barn tier 2
+PASS  Visible upgrade detail: barn tier 3
+PASS  Visible upgrade detail: dairy tier 2
+PASS  Visible upgrade detail: dairy tier 3
+PASS  Visible upgrade detail: loom tier 2
+PASS  Visible upgrade detail: loom tier 3
+PASS  Visible upgrade detail: sugarhouse tier 2
+PASS  Visible upgrade detail: sugarhouse tier 3
+PASS  Visible upgrade detail: preserves tier 2
+PASS  Visible upgrade detail: preserves tier 3
+PASS  Visible upgrade detail: station tier 2
+PASS  Visible upgrade detail: station tier 3
+PASS  Visible upgrade detail: cabin tier 2
+PASS  Visible upgrade detail: cabin tier 3
+PASS  Animal escapes an overlapping object and continues walking
+PASS  Every animal advances through delivered frames, even with no window message loop and in rain
+PASS  There is accessible empty ground for direct panning
+PASS  Empty-ground drag pans immediately without a mode or settings
+PASS  Panning does not move saved objects
+PASS  Outer scenery tree has an editable saved world position
+PASS  Outer tree placement survives save and load
+PASS  Butterfly world position is independent of camera translation
+PASS  Butterflies follow changing smooth world paths
+PASS  Unmoved scenery does not prevent buying river terrain
+PASS  Unmoved scenery adapts to lake terrain without blocking purchase
+PASS  Expansion stage 1 grants the advertised plot count and charges once
+PASS  Expansion stage 2 grants the advertised plot count and charges once
+PASS  Expansion stage 3 grants the advertised plot count and charges once
+PASS  Expansion stage 4 grants the advertised plot count and charges once
+PASS  Expansion stage 5 grants the advertised plot count and charges once
+PASS  Expansion stage 6 grants the advertised plot count and charges once
+PASS  Expansion stage 7 grants the advertised plot count and charges once
+PASS  81 is the hard limit; further expansion never charges
+PASS  Expanding preserves roads and existing crop deadlines
+PASS  All 81 fields remain on the wallpaper
+PASS  Default field placements leave road tiles clear
+PASS  Fields can move freely but cannot cover a road
+PASS  A field moves onto open meadow
+PASS  A field can be dragged directly across the wallpaper
+PASS  Last of 81 plots can be planted through the page action
+PASS  Out-of-range plot action cannot spend coins
+PASS  81 fields and a custom shortcut survive save/load
+PASS  Shortcut validation permits F8 / Alt+F and rejects bare typing or reserved F12
+PASS  Fields page contains no individual land-tile controls
+System.Exception: FAIL: Seed card and plant action work directly from the fields page
+   at DesktopFarm.Tests.Assert(Boolean ok, String name)
+   at DesktopFarm.V012Tests.Run(String path, Action`2 check)
+   at DesktopFarm.Tests.Run(String path)
